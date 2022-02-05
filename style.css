@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+/* body */
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.bg-img {
+    background-image: url(./photo/Rectangle\ 3\ \(2\).png);
+    height: 100vh;
+}
+
+.f-f {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tt {
+    text-transform: uppercase;
+}
+
+/* defolt_width */
+.defolt_width {
+    max-width: 1107px;
+    margin: 0 auto;
+    padding: 51px 33px;
+}
+
+/* bg black */
+.blak_bg {
+    background-color: #333333;
+}
+
+.blak_color {
+    color: #333333;
+}
+
+/* bg gold */
+.gold_color {
+    color: #D1A954;
+}
+
+.gold_bg {
+    background: #D1A954;
+}
+
+/* l-s */
+.l-s {
+    letter-spacing: 0.1em;
+}
+
+/* greed */
+.greed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 0 auto;
+}
+
+/* F-W */
+.f_W {
+    font-weight: bold;
+}
+
+/* information */
+.inv {
+    width: 150px;
+    position: fixed;
+    height: 100vh;
+    opacity: 75%;
+}
+
+.line {
+    width: 80px;
+    background: #C4C4C4;
+    height: 3px;
+    transform: rotate(90deg);
+    margin-bottom: 168px;
+}
+
+.inv-inv {
+    margin-top: 383px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inv-inv p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+    width: 242px;
+    margin-bottom: 220px;
+}
+
+.svg {
+    display: flex;
+    transform: rotate(90deg);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.svg svg {
+    transform: rotate(-90deg);
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 191px;
+}
+
+header span {
+    border-bottom: 2px solid #D1A954;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+
+header ul {
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    grid-gap: 63px;
+}
+
+li {
+    transition: 0.1s cubic-bezier(0, 1.01, 0.94, 0.23);
+}
+
+li:hover {
+    color: #D1A954;
+}
+
+/* main */
+main {
+    display: flex;
+    align-items: center;
+}
+
+/* left main */
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-right: 125px;
+}
+
+.left p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left h1 {
+    font-size: 64px;
+    line-height: 87px;
+}
+
+.left button {
+    padding: 12px 50px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    width: 180px;
+}
+
+
+/* raigh main */
+
+.po-a {
+    position: relative;
+}
+
+.po-r {
+    position: absolute;
+    transform: translateX(20px) translateY(20px);
+}
+
+.abz {
+    margin-bottom: 55px;
+}
+
+.next svg {
+    transform: rotate(180deg);
+    fill: #C4C4C4;
+}
+
+.next span {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+.arrows {
+    display: flex;
+    grid-gap: 154px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.previous span {
+    margin-right: 20px;
+}
+
+/* 2-page */
+center {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 100px;
+}
+
+/* about */
+.about {
+    display: flex;
+    grid-gap: 30px;
+}
+
+/* left abou 2-page */
+.left_about {
+    width: 445px;
+}
+
+.left_about p {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.mgboot {
+    margin-bottom: 40px;
+}
+
+.best {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+/* main_about */
+.main_about {
+    width: 255px;
+}
+
+.main_about p {
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+/* 3-page */
+.img {
+    margin-left: 150px;
+}
+
+.abs:nth-child(1) {
+    background-image: url(./photo/Rectangle\ 15\ \(1\).png);
+}
+
+.abs:nth-child(2) {
+    background-image: url(./photo/Rectangle\ 16.png);
+}
+
+.abs:nth-child(3) {
+    background-image: url(./photo/Rectangle\ 15\ \(2\).png);
+}
+
+.abs:nth-child(4) {
+    background-image: url(./photo/Rectangle\ 15\ \(3\).png);
+}
+/* item */
+.abs {
+    padding: 40px 0 ;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.abs h1{
+    margin-left: 40px;
+}
+.abs p {
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    transform: rotate(-90deg);
+}
