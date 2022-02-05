@@ -61,6 +61,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
+    grid-gap: 5px;
 }
 
 /* F-W */
@@ -215,7 +216,7 @@ main {
 }
 
 /* 2-page */
-center {
+.pg2 {
     font-weight: 300;
     font-size: 48px;
     line-height: 65px;
@@ -264,35 +265,87 @@ center {
     margin-left: 150px;
 }
 
-.abs:nth-child(1) {
+.item {
     background-image: url(./photo/Rectangle\ 15\ \(1\).png);
+    margin-bottom: 150px;
 }
 
-.abs:nth-child(2) {
+.im3 {
     background-image: url(./photo/Rectangle\ 16.png);
 }
 
-.abs:nth-child(3) {
+.im1 {
     background-image: url(./photo/Rectangle\ 15\ \(2\).png);
 }
 
-.abs:nth-child(4) {
+.im2 {
     background-image: url(./photo/Rectangle\ 15\ \(3\).png);
 }
+
 /* item */
 .abs {
-    padding: 40px 0 ;
+    padding: 40px 0;
     height: 550px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.abs h1{
-    margin-left: 40px;
+
+.abs h1 {
+    margin-left: 59px;
 }
+
 .abs p {
+    width: 131px;
     display: flex;
+    margin-top: 355px;
     font-size: 18px;
     line-height: 25px;
     transform: rotate(-90deg);
+}
+
+.yillow {
+    padding: 35px;
+    border-radius: 100%;
+}
+
+.al {
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3-page */
+.raily_bg {
+    display: flex;
+    align-items: center;
+    width: 1110px;
+    padding: 126px 190px;
+    background-image: url(./photo/Rectangle\ 28.png);
+}
+
+.left_bestone p {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+.raight_bestone {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    margin-left: 103px;
+    flex-direction: column;
+}
+.star{
+    display: flex;
+    grid-gap: 25px;
+    margin-bottom: 25px;
+}
+.mgtop{
+    margin-top: 150px;
+}
+.gazprom{
+    grid-gap: 75px;
+    grid-template-columns: repeat(auto-fit, minmax(169px, 1fr));
 }
