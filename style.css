@@ -337,15 +337,87 @@ main {
     margin-left: 103px;
     flex-direction: column;
 }
-.star{
+
+.star {
     display: flex;
     grid-gap: 25px;
     margin-bottom: 25px;
 }
-.mgtop{
+
+.mgtop {
     margin-top: 150px;
 }
-.gazprom{
+
+.gazprom {
     grid-gap: 75px;
     grid-template-columns: repeat(auto-fit, minmax(169px, 1fr));
+}
+
+/* end */
+.left-end {
+    width: 600px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px;
+}
+
+.end_but {
+    background: #444444;
+    border: 1px solid #616161;
+    padding: 0 15px;
+    width: 180px;
+    height: 35px;
+    transition: .1s ease;
+}
+
+.end_but:hover {
+    border: 1px solid #D1A954;
+}
+
+.flex_js {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.raight-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.lol {
+    width: 310px;
+    height: 100px;
+}
+
+.inp {
+    display: flex;
+    grid-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.end_end {
+    display: flex;
+    flex-direction: row;
+}
+.bootom {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.bootom span{
+    width:390px;
+    color: #989898;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 40px;
+}
+.bootom button{
+    color: white;
+    padding: 20px 30px;
+    margin-left: 150px;
 }
