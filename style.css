@@ -15,6 +15,8 @@ body {
 
 .bg-img {
     background-image: url(./photo/Rectangle\ 3\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -77,12 +79,25 @@ body {
     opacity: 75%;
 }
 
+.cotact {
+    transition: .2s ease;
+}
+
+.cotact:hover {
+    color: #D1A954;
+}
+
 .line {
     width: 80px;
     background: #C4C4C4;
     height: 3px;
     transform: rotate(90deg);
     margin-bottom: 168px;
+    transition: .2s ease;
+}
+
+.line:hover {
+    background: #D1A954;
 }
 
 .inv-inv {
@@ -112,6 +127,14 @@ body {
     transform: rotate(-90deg);
 }
 
+.svg svg path {
+    transition: .2s ease;
+}
+
+.svg svg:hover path {
+    fill: #D1A954;
+}
+
 /* header */
 header {
     display: flex;
@@ -126,6 +149,10 @@ header span {
     line-height: 22px;
     text-align: right;
     letter-spacing: 0.05em;
+    transition: .2s ease;
+}
+header span:hover{
+    color: #D1A954;
 }
 
 header ul {
@@ -199,9 +226,15 @@ main {
 }
 
 .next span {
-    font-size: 18px;
-    line-height: 25px;
     margin-left: 20px;
+}
+
+.arrows span {
+    transition: .2s ease;
+}
+
+.arrows path {
+    transition: .2s ease;
 }
 
 .arrows {
@@ -213,6 +246,14 @@ main {
 
 .previous span {
     margin-right: 20px;
+}
+
+.arrows div:hover path {
+    fill: #D1A954;
+}
+
+.arrows div:hover span {
+    color: #D1A954;
 }
 
 /* 2-page */
@@ -263,23 +304,30 @@ main {
 /* 3-page */
 .img {
     margin-left: 150px;
+    max-width: 1755px;
 }
 
 .item {
     background-image: url(./photo/Rectangle\ 15\ \(1\).png);
+    background-repeat: no-repeat;
     margin-bottom: 150px;
 }
 
 .im3 {
     background-image: url(./photo/Rectangle\ 16.png);
+    background-repeat: no-repeat;
 }
 
 .im1 {
     background-image: url(./photo/Rectangle\ 15\ \(2\).png);
+    background-repeat: no-repeat;
+
 }
 
 .im2 {
     background-image: url(./photo/Rectangle\ 15\ \(3\).png);
+    background-repeat: no-repeat;
+
 }
 
 /* item */
@@ -321,6 +369,7 @@ main {
     width: 1110px;
     padding: 126px 190px;
     background-image: url(./photo/Rectangle\ 28.png);
+    background-repeat: no-repeat;
 }
 
 .left_bestone p {
@@ -351,8 +400,13 @@ main {
 .gazprom {
     grid-gap: 75px;
     grid-template-columns: repeat(auto-fit, minmax(169px, 1fr));
+}   
+.gazprom  path{
+    transition: .2s ease;
 }
-
+.gazprom svg:hover path{
+    fill: #D1A954;
+}
 /* end */
 .left-end {
     width: 600px;
@@ -404,19 +458,22 @@ main {
     display: flex;
     flex-direction: row;
 }
+
 .bootom {
     display: flex;
     align-items: center;
     margin-left: 70px;
 }
-.bootom span{
-    width:390px;
+
+.bootom span {
+    width: 390px;
     color: #989898;
     font-size: 12px;
     line-height: 150%;
     margin-top: 40px;
 }
-.bootom button{
+
+.bootom button {
     color: white;
     padding: 20px 30px;
     margin-left: 150px;
